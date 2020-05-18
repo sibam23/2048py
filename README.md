@@ -6,4 +6,5 @@
   - A is LEFT
   - S is DOWN
   - D is RIGHT
- 
+   
+   ![ss2](https://user-images.githubusercontent.com/64795061/82238327-ba4afa80-9954-11ea-86a2-8e28523b3e6b.png)
