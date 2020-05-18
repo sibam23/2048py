@@ -182,20 +182,21 @@ while not gameover:
     if board == tempBoard:
       print("Try different direction")
     else:
-      won(board,n)
-      if count == 1:
-        display(board,n)
-        print("VICTORY")
-        gameover = True
-
-      if count == 0:
-        if loss():
+       if loss():
           print("GAME OVER")
           gameover = True
+          
+          
+       else:
+         won(board,n)
+         if count == 1:
+           display(board,n)
+           print("VICTORY")
+           gameover = True
 
-        else:
-          Newval()
-          display(board,n)
+         if count == 0:
+           Newval()
+           display(board,n)
 
 
    
