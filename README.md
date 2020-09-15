@@ -14,4 +14,4 @@
   
    
    
-   Although sometimes it shows nonetype error in commandprompt in Windows and sometimes it doesn't without changing the code
+   
